@@ -35,4 +35,12 @@ public class UserModel implements Serializable {
 
     @Transient
     private MultipartFile file;
+
+    public UserModel(String lastName, String firstName, String email, String phoneNumber, String fileType) {
+        LastName = lastName;
+        this.firstName = firstName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.fileType = fileType;
+    }
 }
