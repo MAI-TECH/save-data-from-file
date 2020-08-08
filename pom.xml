@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.maitech</groupId>
-	<artifactId>user-manager</artifactId>
+	<artifactId>save-data-from-file</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>user-manager</name>
+	<packaging>jar</packaging>
+	<name>save-data-from-file</name>
 	<description>user manager with CVS, Excel and JSON files</description>
 
 	<properties>

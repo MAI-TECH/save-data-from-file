@@ -19,7 +19,7 @@ public class UserModel implements Serializable {
     private Long id;
 
     @Column(name = "last_name")
-    private String LastName;
+    private String lastName;
 
     @Column(name = "first_name")
     private String firstName;
@@ -37,7 +37,7 @@ public class UserModel implements Serializable {
     private MultipartFile file;
 
     public UserModel(String lastName, String firstName, String email, String phoneNumber, String fileType) {
-        LastName = lastName;
+        this.lastName = lastName;
         this.firstName = firstName;
         this.email = email;
         this.phoneNumber = phoneNumber;

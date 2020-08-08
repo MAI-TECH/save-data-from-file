@@ -42,7 +42,7 @@ public class UserService {
         assert extension != null;
         if (extension.equalsIgnoreCase("json")) {
             isFlag = readDataFromJSONFile(file);
-        } else if (extension.equalsIgnoreCase("cvs")) {
+        } else if (extension.equalsIgnoreCase("csv")) {
             isFlag = readDataFromCSVFile(file);
         } else if (extension.equalsIgnoreCase("xls") || extension.equalsIgnoreCase("xlsx")) {
             isFlag = readDataFromExcelFile(file);
